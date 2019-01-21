@@ -4,7 +4,7 @@ import unittest
 from dummy_tax_calculator import DummyTaxCalculator
 from vehicle import Vehicle
 
-
+unittest.skip()
 class TaxCalculatorDieselFuelTest(unittest.TestCase):
     def setUp(self):
         self.tax_calculator = DummyTaxCalculator()
@@ -66,5 +66,3 @@ class TaxCalculatorDieselFuelTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
