@@ -3,7 +3,7 @@ import unittest
 from dummy_tax_calculator import  DummyTaxCalculator
 from vehicle import Vehicle
 
-unittest.skip()
+unittest.skip("expensive")
 class TaxCalculatorAfterFirstYearForExpensiveVehiclesTest(unittest.TestCase):
 	def setUp(self):
 		self.tax_calculator = DummyTaxCalculator()

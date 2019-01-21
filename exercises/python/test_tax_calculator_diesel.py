@@ -4,7 +4,7 @@ import unittest
 from dummy_tax_calculator import DummyTaxCalculator
 from vehicle import Vehicle
 
-unittest.skip()
+unittest.skip("diesel")
 class TaxCalculatorDieselFuelTest(unittest.TestCase):
     def setUp(self):
         self.tax_calculator = DummyTaxCalculator()
