@@ -1,6 +1,6 @@
 language: python
 before_script: cd exercises/python
 python:
-- "3.7"
+- "3.6"
 script:
 - pytest
