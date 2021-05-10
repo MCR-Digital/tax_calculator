@@ -4,8 +4,9 @@ package tax;
 // DON'T BE LAZY - WRITE YOUR OWN NEW TAXCALCULATOR CLASS
 @Deprecated
 public final class DummyTaxCalculator extends TaxCalculator {
+
     @Override
-    public int calculateTax(Vehicle vehicle) {
+    int calculateTax(Vehicle vehicle) {
         return -1;
     }
 }
