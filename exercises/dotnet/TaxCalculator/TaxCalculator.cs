@@ -6,7 +6,7 @@ namespace TaxCalculator
     {
         protected int Year { get; }
 
-        public abstract int CalculateTax(Vehicle vehicle);
+        public abstract int CalculateVehicleTax(Vehicle vehicle);
 
         protected TaxCalculator() : this(DateTime.Now.Year)
         {
@@ -15,7 +15,7 @@ namespace TaxCalculator
 
         protected TaxCalculator(int year)
         {
-            Year = year;
+            Year = 2019;
         }
     }
 }
